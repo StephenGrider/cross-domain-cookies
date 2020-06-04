@@ -1,6 +1,6 @@
 ### Example of cross origin cookies
 
-In `api-server/index.js`, update `origin` to a domain listed in your `/etc/hosts` file.
+In `api-server/index.js`, update `origin` to a domain listed in your `/etc/hosts` file.  Leave the port of ':3001' on there.
 
 Start both servers, then navigate to `http://localhost:3000/setcookie`.  This will set a cookie on `localhost`.
 
